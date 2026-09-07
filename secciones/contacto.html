@@ -6,11 +6,9 @@
   <title>Contacto</title>
   <link rel="stylesheet" href="../assets/estilos/style.css">
   <link rel="shortcut icon" href="../assets/img/isotipo-1.svg" type="image/x-icon">
-
 </head>
 
 <body>
-
   <div class="contenedor-general">
     <div class="contenedor-cabecera" id="cabeceraContacto">
       <header class="contenedor-header">
@@ -19,7 +17,7 @@
           <ul class="nav-ul">
             <li><a href="../index.html">Inicio</a></li>
             <li><a href="nosotros.html">Nosotros</a></li>
-            <li><a href="catalogo.html">Catálogo</a></li>
+            <!-- <li><a href="catalogo.html">Catálogo</a></li> -->
             <li><a href="contacto.html" class="li-destacado">Contacto</a></li>
           </ul>
         </nav>
@@ -27,16 +25,11 @@
 
       <section>
         <ul class="ul-redes">
-          <li><a
-              href="https://api.whatsapp.com/send?phone=542615523328&text=%C2%A1Hola%20Greenway!%20%C2%BFMe%20podr%C3%ADan%20ayudar%3F"
-              target="_blank"><img src="../assets/img/whatsapp.svg" alt="whatsapp-greenway" title="whatsapp"></a></li>
-          <li><a href="mailto:serradilladiana3@gmail.com" target="_blank"><img src="../assets/img/email.svg"
-                alt="email-greenway" title="email"></a></li>
-          <li><a href="https://www.instagram.com/laddy___di/" target="_blank"><img src="../assets/img/instagram.svg"
-                alt="instagram-greenway" title="instagram"></a></li>
+          <li><a href="https://api.whatsapp.com/send?phone=542615523328&text=%C2%A1Hola%20Greenway!%20%C2%BFMe%20podr%C3%ADan%20ayudar%3F" target="_blank" rel="noopener noreferrer"><img src="../assets/img/whatsapp.svg" alt="WhatsApp de Greenway" title="WhatsApp"></a></li>
+          <li><a href="mailto:serradilladiana3@gmail.com"><img src="../assets/img/email.svg" alt="Email de Greenway" title="Email"></a></li>
+          <li><a href="https://www.instagram.com/laddy___di/" target="_blank" rel="noopener noreferrer"><img src="../assets/img/instagram.svg" alt="Instagram de Greenway" title="Instagram"></a></li>
         </ul>
-        <h2 id="h2-nosotros">Contacto
-        </h2>
+        <h2 id="h2-nosotros">Contacto</h2>
 
         <div class="contenedor-idioma">
           <p id="español">SP</p>
@@ -44,53 +37,83 @@
           <p id="ingles">EN</p>
         </div>
         <div class="contenedor-whatsapp">
-          <a href="https://api.whatsapp.com/send?phone=542615523328&text=%C2%A1Hola%20Greenway!%20%C2%BFMe%20podr%C3%ADan%20ayudar%3F"
-            target="_blank">
-            <img src="../assets/img/talk.svg" alt="icono_talk">
+          <a href="https://api.whatsapp.com/send?phone=542615523328&text=%C2%A1Hola%20Greenway!%20%C2%BFMe%20podr%C3%ADan%20ayudar%3F" target="_blank" rel="noopener noreferrer">
+            <img src="../assets/img/talk.svg" alt="">
           </a>
-          <a href="https://api.whatsapp.com/send?phone=542615523328&text=%C2%A1Hola%20Greenway!%20%C2%BFMe%20podr%C3%ADan%20ayudar%3F"
-            target="_blank">
+          <a href="https://api.whatsapp.com/send?phone=542615523328&text=%C2%A1Hola%20Greenway!%20%C2%BFMe%20podr%C3%ADan%20ayudar%3F" target="_blank" rel="noopener noreferrer">
             <p>Hablemos....</p>
           </a>
         </div>
         <figure class="figure-flechaAbajo">
-          <img src="../assets/img/arrow-down.svg" alt="arrow-svg">
+          <img src="../assets/img/arrow-down.svg" alt="">
         </figure>
       </section>
     </div>
 
+    <main class="main-general main-contacto">
+      <section class="section-contacto" aria-labelledby="titulo-contacto">
+        <div class="contenedor-indice contacto-indice">
+          <p class="indice-categoria">Contacto</p>
+          <div class="linea-divisora-negra"></div>
+          <p class="indice-numero">01</p>
+        </div>
 
-    <p>SITIO EN CONSTRUCCIÓN</p>
+        <div class="contacto-intro">
+          <h2 id="titulo-contacto">Hablemos de tu próxima aventura.</h2>
+          <p>Si querés conocer más sobre nuestros productos sustentables, escribinos. Estamos para acompañarte a elegir opciones que respeten la naturaleza y a todos los seres que la habitan.</p>
+        </div>
+
+        <div class="contacto-contenido">
+          <aside class="contacto-canales" aria-label="Canales de contacto">
+            <p class="contacto-canales-titulo">Elegí cómo conectar</p>
+            <a class="contacto-canal" href="https://api.whatsapp.com/send?phone=542615523328&text=%C2%A1Hola%20Greenway!%20%C2%BFMe%20podr%C3%ADan%20ayudar%3F" target="_blank" rel="noopener noreferrer">
+              <img src="../assets/img/whatsapp.svg" alt="">
+              <span><strong>WhatsApp</strong><small>Una consulta rápida, cuando quieras.</small></span>
+            </a>
+            <a class="contacto-canal" href="mailto:serradilladiana3@gmail.com">
+              <img src="../assets/img/email.svg" alt="">
+              <span><strong>Email</strong><small>Contanos con calma lo que necesitás.</small></span>
+            </a>
+            <a class="contacto-canal" href="https://www.instagram.com/laddy___di/" target="_blank" rel="noopener noreferrer">
+              <img src="../assets/img/instagram.svg" alt="">
+              <span><strong>Instagram</strong><small>Seguinos para inspirarte al aire libre.</small></span>
+            </a>
+          </aside>
+
+          <form class="contacto-formulario" action="mailto:serradilladiana3@gmail.com" method="post" enctype="text/plain">
+            <p class="contacto-formulario-titulo">Dejanos tu mensaje</p>
+            <div class="contacto-campos-superiores">
+              <p><label for="nombre">Nombre</label><input id="nombre" name="nombre" type="text" placeholder="¿Cómo te llamás?"></p>
+              <p><label for="email">Email</label><input id="email" name="email" type="email" placeholder="tu@email.com"></p>
+            </div>
+            <p><label for="mensaje">Mensaje</label><textarea id="mensaje" name="mensaje" rows="5" placeholder="¿En qué podemos ayudarte?"></textarea></p>
+            <button type="submit">Enviar consulta</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
     <footer class="contenedor-footer">
       <div>
         <figure class="figure-logoFooter">
-          <img src="../assets/img/imagotipo.png" alt="">
+          <img src="../assets/img/imagotipo.png" alt="Greenway">
         </figure>
-
         <ul class="footer-navRedes">
-          <li><a
-              href="https://api.whatsapp.com/send?phone=542615523328&text=%C2%A1Hola%20Greenway!%20%C2%BFMe%20podr%C3%ADan%20ayudar%3F"
-              target="_blank"><img src="../assets/img/whatsapp.svg" alt="whatsapp-greenway" title="whatsapp"></a></li>
-          <li><a href="mailto:serradilladiana3@gmail.com" target="_blank"><img src="../assets/img/email.svg"
-                alt="email-greenway" title="email"></a></li>
-          <li><a href="https://www.instagram.com/laddy___di/" target="_blank"><img src="../assets/img/instagram.svg"
-                alt="instagram-greenway" title="instagram"></a></li>
+          <li><a href="https://api.whatsapp.com/send?phone=542615523328&text=%C2%A1Hola%20Greenway!%20%C2%BFMe%20podr%C3%ADan%20ayudar%3F" target="_blank" rel="noopener noreferrer"><img src="../assets/img/whatsapp.svg" alt="WhatsApp de Greenway" title="WhatsApp"></a></li>
+          <li><a href="mailto:serradilladiana3@gmail.com"><img src="../assets/img/email.svg" alt="Email de Greenway" title="Email"></a></li>
+          <li><a href="https://www.instagram.com/laddy___di/" target="_blank" rel="noopener noreferrer"><img src="../assets/img/instagram.svg" alt="Instagram de Greenway" title="Instagram"></a></li>
         </ul>
-
         <nav class="contenedor-nav contenedor-nav-footer">
           <ul class="nav-ul">
             <li><a href="../index.html">Inicio</a></li>
-            <li><a href="nosotros.html" class="li-destacado">Nosotros</a></li>
-            <li><a href="catalogo.html">Catálogo</a></li>
-            <li><a href="contacto.html">Contacto</a></li>
+            <li><a href="nosotros.html">Nosotros</a></li>
+            <!-- <li><a href="catalogo.html">Catálogo</a></li> -->
+            <li><a href="contacto.html" class="li-destacado">Contacto</a></li>
           </ul>
         </nav>
-        <p class="dato-alumno">Diana Serradilla - Diseño Multimedial - Primer cuatrimestre - DMN1AV - Turno Noche -
-          2023 - Trabajo Final</p>
+        <p class="dato-alumno">Diana Serradilla - Diseño Multimedial - Primer cuatrimestre - DMN1AV - Turno Noche - 2023 - Trabajo Final</p>
       </div>
     </footer>
   </div>
-
 </body>
-
 </html>

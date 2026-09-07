@@ -19,8 +19,8 @@ ul li {
 }
 
 .contenedor-general {
-  width: 1300px;
-  max-width: 1300px;
+  /* width: 1300px;
+  max-width: 1300px; */
   margin: auto;
   position: relative;
 }
@@ -1026,4 +1026,232 @@ ul li {
   font-size: 10px;
   margin-top: 20px;
   text-align: center;
+}
+
+/* Contacto */
+.main-contacto {
+  padding: 72px 60px 90px;
+}
+
+.section-contacto {
+  max-width: 1120px;
+  margin: auto;
+  position: relative;
+}
+
+.contacto-indice {
+  position: static;
+  margin-bottom: 72px;
+}
+
+.contacto-intro {
+  max-width: 660px;
+  margin: 0 auto 50px;
+  text-align: center;
+}
+
+.contacto-canales-titulo,
+.contacto-formulario-titulo {
+  color: #243e2a;
+  font-family: "Lora", serif;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.contacto-intro h2 {
+  color: #243e2a;
+  font-family: "Simpel", sans-serif;
+  font-size: 42px;
+  font-weight: 500;
+  line-height: 1.1;
+  margin: 0 0 18px;
+}
+
+.contacto-intro > p:last-child {
+  color: #212121;
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+.contacto-contenido {
+  display: flex;
+  align-items: stretch;
+  gap: 28px;
+}
+
+.contacto-canales,
+.contacto-formulario {
+  border-radius: 20px;
+  box-sizing: border-box;
+}
+
+.contacto-canales {
+  background-color: #b3be97;
+  flex: 0 1 370px;
+  padding: 36px;
+}
+
+.contacto-canales-titulo,
+.contacto-formulario-titulo {
+  margin-bottom: 22px;
+}
+
+.contacto-canal {
+  align-items: center;
+  border-top: 1px solid rgba(36, 62, 42, 0.28);
+  color: #243e2a;
+  display: flex;
+  gap: 15px;
+  padding: 18px 0;
+  text-decoration: none;
+  transition: transform 0.25s ease;
+}
+
+.contacto-canal:last-child {
+  border-bottom: 1px solid rgba(36, 62, 42, 0.28);
+}
+
+.contacto-canal:hover {
+  transform: translateX(8px);
+}
+
+.contacto-canal img {
+  height: 25px;
+  width: 25px;
+}
+
+.contacto-canal span {
+  display: grid;
+  gap: 4px;
+}
+
+.contacto-canal strong {
+  font-size: 15px;
+}
+
+.contacto-canal small {
+  font-size: 11px;
+  line-height: 1.4;
+}
+
+.contacto-formulario {
+  background-color: #efeae6;
+  flex: 1;
+  padding: 36px;
+}
+
+.contacto-campos-superiores {
+  display: flex;
+  gap: 16px;
+}
+
+.contacto-campos-superiores p {
+  flex: 1;
+}
+
+.contacto-formulario label {
+  color: #243e2a;
+  display: block;
+  font-size: 12px;
+  font-weight: 600;
+  margin: 0 0 8px;
+}
+
+.contacto-formulario input,
+.contacto-formulario textarea {
+  background-color: #ffffff;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  box-sizing: border-box;
+  color: #212121;
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+  margin-bottom: 18px;
+  padding: 13px 14px;
+  width: 100%;
+}
+
+.contacto-formulario textarea {
+  resize: vertical;
+}
+
+.contacto-formulario input:focus,
+.contacto-formulario textarea:focus {
+  border-color: #243e2a;
+  outline: none;
+}
+
+.contacto-formulario button {
+  background-color: #243e2a;
+  border: 1px solid #243e2a;
+  border-radius: 10px;
+  color: #ffffff;
+  cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  padding: 13px 22px;
+  transition: background-color 0.25s ease, color 0.25s ease;
+}
+
+.contacto-formulario button:hover {
+  background-color: transparent;
+  color: #243e2a;
+}
+
+@media (max-width: 760px) {
+  .contenedor-header,
+  .contenedor-nav,
+  .contenedor-nav-footer {
+    box-sizing: border-box;
+    width: 100%;
+  }
+
+  .contenedor-header h1 {
+    margin-left: 15px;
+  }
+
+  .nav-ul {
+    text-align: center;
+  }
+
+  .ul-redes {
+    display: none;
+  }
+
+  .contenedor-whatsapp {
+    left: 38%;
+  }
+
+  .main-contacto {
+    padding: 48px 20px 60px;
+  }
+
+  .contacto-indice {
+    margin-bottom: 48px;
+  }
+
+  .contacto-intro h2 {
+    font-size: 34px;
+  }
+
+  .contacto-contenido,
+  .contacto-campos-superiores {
+    flex-direction: column;
+  }
+
+  .contacto-canales,
+  .contacto-formulario {
+    padding: 28px 22px;
+  }
+
+  .figure-logoFooter {
+    display: block;
+    margin: 0 auto 15px;
+  }
+
+  .footer-navRedes {
+    display: block;
+    text-align: center;
+  }
 }
